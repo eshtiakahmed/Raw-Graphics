@@ -1,0 +1,172 @@
+/* Header Section Start */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.logo-img img{
+    width: 100px;
+    height: 70px;
+}
+.logo-details{
+    margin-top: -25px;
+}
+.logo-h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.logo-p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -25px;
+}
+.header{
+    display: flex;
+}
+.header-h3{
+    font-weight: 500;
+    margin-right: 50px;
+}
+.header-btn{
+    font-size: 17px;
+    color: #ffff;
+    background-color:rgb(111, 90, 205);
+    padding: 10px 20px;
+}
+
+/* Header Section End */
+
+/* Banner Section start */
+
+.Banner{
+    display: flex;
+    margin-top: 50px;
+}
+.banner-text{
+    margin-top: 80px;
+}
+.banner-h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+span{
+    color: rgb(157, 100, 218);
+}
+.banner-h1{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.banner-p{
+ color: rgb(112, 110, 110);
+}
+.banner-btn1{
+    padding: 10px 30px;
+    color: #ffff;
+    background-color: rgb(111, 90, 205);
+}
+.banner-btn2{
+    padding: 10px 20px;
+    color: #ffff;
+    background-color: rgb(74, 70, 70);
+}
+.banner-img{
+    margin-left: 460px;
+}
+.banner-img img{
+    width: 400px;
+    height: 500px;
+}
+
+/* Banner Section End */
+
+/* About Me Section Start */
+
+.About{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+.about-text{
+    
+}
+.about-h3{
+    font-size: 20px;
+    color: rgb(59 55 55 / 71%);
+}
+hr{
+    margin-right: 525px;
+    padding: 1px;
+    background-color: blue;
+}
+.about-h2{
+
+}
+.about-p{
+    font-size: 15px;
+    color: rgb(91, 87, 87);
+}
+.about-circle{
+    margin-left: 200px;
+}
+.circle{
+    display: flex;
+    margin-left: 225px;
+}
+.circle-1{
+    background-color: rgb(140, 77, 211);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    position: relative;
+}
+.content-1{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.circle-2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.content-2{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.circle-3{
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative; 
+    margin-left: 300px;  
+    margin-top: -40px;
+}
+.content-3{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+/* About Me Section End */
+
